@@ -141,7 +141,7 @@ if(isset($_POST["id"]) && !empty($_POST["id"])){
         <div class="row">
             <div class="col-md-12">
                 <h2 class="mt-5">Update Record</h2>
-                <p>Please edit the input values and submit to update the employee record.</p>
+                <p>Please edit the input values and submit to update the student record.</p>
                 <form action="<?php echo htmlspecialchars(basename($_SERVER['REQUEST_URI'])); ?>" method="post">
                     <div class="form-group">
                         <label>Name</label>
